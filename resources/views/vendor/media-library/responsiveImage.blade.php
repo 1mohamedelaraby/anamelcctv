@@ -1,0 +1,2 @@
+<img {!! $attributeString !!} class="img-fluid img-thumbnail max-w-full" loading="{{ $loadingAttributeValue }}" srcset="{{ $media->getSrcset($conversion) }}"
+    src="{{ $media->getUrl($conversion) }}" width="{{ $width }}">
